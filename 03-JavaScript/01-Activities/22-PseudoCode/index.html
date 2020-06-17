@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+    const options = ["rock", "paper", "sizzors"];
+    
+    //set an array defining the computer's option of a weapon
+    //promt the user for their choice of weapon
+    const userweapon = prompt("choose your weapon!").toLowerCase();
+    //specify the computers selected weapon using a veriable
+const compChoice = Math.floor(Math.random() * options.length);
+//ensure the computer's weapon is being selected successfully
+console.log(options[compChoice]);
+console.log(userweapon)
+//define the wining condition based on the comparrison between choices
+    //if users chooses paper and computer chooses rock>>
+     // or user chooses scissors and computer chooses paper>>
+     //or user chooses rock and computer chooses scizzors>>
+     if (userWeapon==="paper" && compChoice==="rock" 
+        || userweapon==="sizzors" && compChoice==="paper" 
+        || userweapon==="rock" && compChoice==="sizzors") {
+            
+         //user gets a point
+     } 
+
+     //user gets a point
+
+     //elseif user chooses paper and computer chooses scizzors>>
+       //or user chooses rock and computerchooses rock>>
+         //computer gets a point
+
+         //else if user  choice = computers choice
+        // its a tie
+            //alert browser or console of outcome as appropriate
+        //else alert user not to cheat
+    
+    
+
+
+
+
+//### File
+
+//* _None_
+
+//### Instructions
+
+//* With a partner, spend a few moments outlining all the steps and conditions that go into a single game of rock paper scissors.
+
+//* Try to break it down into steps that you could code out.
+
+//* Think of basic elements like loops, if-else statements, arrays, alerts, etc.
+
+//* Be prepared to share your outlines approach.
+
+    </script>
+</body>
+</html>

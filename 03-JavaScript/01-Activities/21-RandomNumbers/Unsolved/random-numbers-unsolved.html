@@ -7,13 +7,18 @@
   <body>
     <script type="text/javascript">
       // Loop 10 times
-      for (var i = 0; i < 10; i++) {
+      //for (var i = 0; i < 10; i++) {
+       // console.log(Math.random() * 10);
+       // console.log(Math.floor((match.random() * 10) +1));
         // Generate a random decimal number between 0 and 1
-        var num = Math.random();
+       // var num =  math.floor((math.random() * 10) + 1);
+       //console.log(num);
+     //}
+     const options = ["r", "p", "s", "a", "u", "d"];
+const randomIndex = Math.floor(Math.random() * options.length);
+console.log(options[randomIndex]);
 
         // Display in console
-        console.log(num);
-      }
     </script>
   </body>
 </html>
