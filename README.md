@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Full-Stack Course Overview
 
 Some of the most important factors influencing how well and how quickly you learn something new include not only how you structure and sequence your learning, but also how you stay motivated and curious in the material, and how you leverage your prior knowledge to build new knowledge you can apply in different situations. Learning to become a web-developer is not easy and will take a lot of internal drive and outside support. To make that journey a bit easier, the course curriculum is structured and sequenced to keep motivation high and connections between concepts clear. Here’s how the class is broken down.
@@ -35,3 +36,6 @@ For a closer preview of what we explore in each unit of the boot camp, dive into
 * Activities you’ll complete and what skills they focus on
 * Common interview questions related to that week’s material
 * Helpful resources if you want to get ahead or gain more experience after the unit
+=======
+# BootStrap_homework
+>>>>>>> a35a8fe2fbdfa9eb57bb89bb8eea67ee2e9dd8d8
